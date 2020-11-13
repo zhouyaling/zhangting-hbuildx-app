@@ -33,7 +33,7 @@ $(document).ready(function(){
 	});
 	//返回
 	$(".return,.home").click(function(){
-		history.back(-1);
+		window.location.href=document.referrer
 	});
 	//弹出子菜单
 	$(".navbtn").click(function(){

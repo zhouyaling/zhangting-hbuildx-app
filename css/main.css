@@ -35,9 +35,9 @@ body{
 }
 .warpe {
     margin: 0 auto;
-    min-width: 320px;
+    /* min-width: 320px;
     max-width: 640px;
-    min-height: 500px;
+    min-height: 500px; */
     font-family: "Microsoft YaHei", Arial, "Helvetica";
     color: #333;
     font-size: 1.4rem;
