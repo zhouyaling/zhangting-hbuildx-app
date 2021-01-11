@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -13,30 +14,28 @@
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/wo.js"></script>
-	<!-- <script type="text/javascript">
-	    $(function() {
-	        $.fn.raty.defaults.path = 'lib/img';
-	        $('#star').raty({ readOnly: true, score: 3 });
-	    });
-	</script> -->
+    <script type="text/javascript" src="lib/reconnecting-websocket.min.js"></script>
+    <!-- <script type="text/javascript" src="js/wo.js"></script> -->
 </head>
+
 <body>
-<div class="warpe">
-    <div class="head">
-		 <a href="#" class="return"><i class="icon-chevron-left"></i> 返回</a>
-        我的房屋
-    </div>
-    <div class="I_list">
-        <ul>
-            <li>
-                <a href="my_home8.html">
-                    <p>重庆龙湖唐宁one</p>
-                    <p><font>01-03-09</font></p>
-                    <span class="color_y">默认房屋</span>
-                </a>
-            </li>
-           <!-- <li>
+    <div class="warpe">
+        <div class="head">
+            <a href="#" class="return"><i class="icon-chevron-left"></i> 返回</a>
+            我的房屋
+        </div>
+        <div class="I_list">
+            <ul>
+                <li>
+                    <a href="my_home8.html">
+                        <p>重庆龙湖唐宁one</p>
+                        <p>
+                            <font>01-03-09</font>
+                        </p>
+                        <span class="color_y">默认房屋</span>
+                    </a>
+                </li>
+                <!-- <li>
                 <a href="my_home8.html">
                     <p>金海岸花园</p>
                     <p><font>01-03-09</font></p>
@@ -50,8 +49,10 @@
                     <span class="color_y"></span>
                 </a>
             </li> -->
-        </ul>
+            </ul>
+        </div>
+        <button onclick="sendMessage()">test</button>
     </div>
-</div>
 </body>
+
 </html>
